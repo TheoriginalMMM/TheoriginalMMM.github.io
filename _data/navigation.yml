@@ -1,13 +1,13 @@
 main:
-  - title: "Accueil"
+  - title: "Home"
     url: /
-  - title: "Projets"
-    url: /projets/
+  - title: "Projects"
+    url: /_projects/
   - title: "Publications"
     url: /publications/
-  - title: "Expérience"
+  - title: "Experience"
     url: /experience/
-  - title: "Éducation"
+  - title: "Education"
     url: /education/
   - title: "CV (PDF)"
     url: /assets/cv.pdf

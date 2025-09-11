@@ -1,40 +1,37 @@
-title: "Prénom Nom"
-name: "Prénom Nom"
-description: "Chercheur orienté industrie — domaines clés / mots-clés"
-locale: fr
-url: "https://theoriginalmmm.github.io"   # Remplace si besoin d'un domaine custom
-baseurl: ""                               # vide pour un site utilisateur (username.github.io)
+title: "Mohamed El Mehdi Makhlouf"
+name: "Mohamed El Mehdi Makhlouf"
+description: "PhD Student in Wireless Communications | Machine Learning for Signal Processing"
+locale: en
+url: "https://theoriginalmmm.github.io"
+baseurl: ""   # vide car repo user site
 repository: "TheoriginalMMM/TheoriginalMMM.github.io"
 
-# Thème Minimal Mistakes via remote_theme (supporté nativement par GitHub Pages)
+# Thème Minimal Mistakes (supporté GitHub Pages)
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "dark", "air", "contrast", etc.
+minimal_mistakes_skin: "default"  # options: dark, air, neon, etc.
 
-# Plugins supportés par GitHub Pages
 plugins:
   - jekyll-include-cache
 
-# Options utiles
-permalink: /:categories/:title/
-search: true
-
 author:
   avatar: /assets/images/avatar.jpg
-  name: "Prénom Nom"
-  bio: "Résumé en 1–2 lignes. Ex: Doctorant/Ingénieur R&D intéressé par l'industrie."
+  name: "Mohamed El Mehdi Makhlouf"
+  bio: "PhD Student at INRIA Lyon (CITI Lab, INSA Lyon) working on self-supervised learning for radio channel charting. Experienced in ML applications for telecom, energy, and healthcare."
+  location: "Villeurbanne, France"
+  email: "mehdi.makhlouf.pro@gmail.com"
   links:
     - label: "GitHub"
       url: "https://github.com/TheoriginalMMM"
     - label: "LinkedIn"
-      url: "https://www.linkedin.com/in/ton-profil"
+      url: "https://www.linkedin.com/in/mohamed-el-mehdi-makhlouf/"
     - label: "Google Scholar"
-      url: "https://scholar.google.com/"
+      url: "https://scholar.google.com/citations?user=t9MaS3YAAAAJ&hl=fr" # ajoute ton ID Scholar si dispo
 
-# Collection pour les projets
+# Collections
 collections:
   projects:
     output: true
-    permalink: /projets/:path/
+    permalink: /projects/:path/
 
 defaults:
   - scope:
@@ -43,9 +40,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      share: false
-      comments: false
 
-# Navigation par défaut (si pas de _data/navigation.yml)
-# masthead_title: "Prénom Nom"
+# Permalink structure
+permalink: /:categories/:title/
+
+search: true

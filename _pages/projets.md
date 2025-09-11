@@ -1,9 +1,9 @@
 ---
 layout: collection
-title: "Projets"
-permalink: /projets/
+title: "Projects"
+permalink: /projects/
 collection: projects
 entries_layout: grid
 ---
 
-Sélection de projets (open-source, recherche appliquée, industrie).
+Here are some of my selected projects.
