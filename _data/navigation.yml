@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Projects"
-    url: /_projects/
+    url: /projects/
   - title: "Publications"
     url: /publications/
   - title: "Experience"

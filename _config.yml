@@ -3,12 +3,11 @@ name: "Mohamed El Mehdi Makhlouf"
 description: "PhD Student in Wireless Communications | Machine Learning for Signal Processing"
 locale: en
 url: "https://theoriginalmmm.github.io"
-baseurl: ""   # vide car repo user site
+baseurl: ""
 repository: "TheoriginalMMM/TheoriginalMMM.github.io"
 
-# Thème Minimal Mistakes (supporté GitHub Pages)
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"  # options: dark, air, neon, etc.
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
@@ -16,7 +15,7 @@ plugins:
 author:
   avatar: /assets/images/avatar.jpg
   name: "Mohamed El Mehdi Makhlouf"
-  bio: "PhD Student at INRIA Lyon (CITI Lab, INSA Lyon) working on self-supervised learning for radio channel charting. Experienced in ML applications for telecom, energy, and healthcare."
+  bio: "PhD Student at INRIA Lyon (CITI Lab, INSA Lyon) working on self-supervised learning for radio channel charting."
   location: "Villeurbanne, France"
   email: "mehdi.makhlouf.pro@gmail.com"
   links:
@@ -25,9 +24,8 @@ author:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/mohamed-el-mehdi-makhlouf/"
     - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=t9MaS3YAAAAJ&hl=fr" # ajoute ton ID Scholar si dispo
+      url: "https://scholar.google.com/citations?user=t9MaS3YAAAAJ&hl=fr"
 
-# Collections
 collections:
   projects:
     output: true
@@ -41,7 +39,5 @@ defaults:
       layout: single
       author_profile: true
 
-# Permalink structure
 permalink: /:categories/:title/
-
 search: true
