@@ -1,0 +1,51 @@
+title: "Prénom Nom"
+name: "Prénom Nom"
+description: "Chercheur orienté industrie — domaines clés / mots-clés"
+locale: fr
+url: "https://theoriginalmmm.github.io"   # Remplace si besoin d'un domaine custom
+baseurl: ""                               # vide pour un site utilisateur (username.github.io)
+repository: "TheoriginalMMM/TheoriginalMMM.github.io"
+
+# Thème Minimal Mistakes via remote_theme (supporté nativement par GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # "dark", "air", "contrast", etc.
+
+# Plugins supportés par GitHub Pages
+plugins:
+  - jekyll-include-cache
+
+# Options utiles
+permalink: /:categories/:title/
+search: true
+
+author:
+  avatar: /assets/images/avatar.jpg
+  name: "Prénom Nom"
+  bio: "Résumé en 1–2 lignes. Ex: Doctorant/Ingénieur R&D intéressé par l'industrie."
+  links:
+    - label: "GitHub"
+      url: "https://github.com/TheoriginalMMM"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/ton-profil"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/"
+
+# Collection pour les projets
+collections:
+  projects:
+    output: true
+    permalink: /projets/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: false
+      comments: false
+
+# Navigation par défaut (si pas de _data/navigation.yml)
+# masthead_title: "Prénom Nom"

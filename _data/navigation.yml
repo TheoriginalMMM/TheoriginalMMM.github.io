@@ -1,0 +1,13 @@
+main:
+  - title: "Accueil"
+    url: /
+  - title: "Projets"
+    url: /projets/
+  - title: "Publications"
+    url: /publications/
+  - title: "Expérience"
+    url: /experience/
+  - title: "Éducation"
+    url: /education/
+  - title: "CV (PDF)"
+    url: /assets/cv.pdf
