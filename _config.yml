@@ -1,30 +1,44 @@
 title: "Mohamed El Mehdi Makhlouf"
 name: "Mohamed El Mehdi Makhlouf"
-description: "PhD Student in Wireless Communications | Machine Learning for Signal Processing"
-locale: en
+description: "AI/ML and Data R&D engineer completing a PhD in self-supervised learning for wireless communications."
+locale: "en-US"
 url: "https://theoriginalmmm.github.io"
 baseurl: ""
 repository: "TheoriginalMMM/TheoriginalMMM.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+# Installed locally to avoid a GitHub HTTPS request during every build.
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "air"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Jekyll ignores underscore-prefixed folders unless they are explicitly
+# included or declared as collections.
+include:
+  - _pages
 
 author:
-  avatar: /assets/images/avatar.jpg
+  avatar: "/assets/images/mohamed-makhlouf.jpg"
   name: "Mohamed El Mehdi Makhlouf"
-  bio: "PhD Student at INRIA Lyon (CITI Lab, INSA Lyon) working on self-supervised learning for radio channel charting."
-  location: "Villeurbanne, France"
-  email: "mehdi.makhlouf.pro@gmail.com"
+  bio: "AI/ML and Data R&D engineer completing a PhD at Inria Lyon and INSA Lyon."
+  location: "Lyon area, France"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:mehdi.makhlouf.pro@gmail.com"
     - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/TheoriginalMMM"
     - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mohamed-el-mehdi-makhlouf/"
     - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=t9MaS3YAAAAJ&hl=fr"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=t9MaS3YAAAAJ&hl=en"
 
 collections:
   projects:
@@ -34,10 +48,39 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "projects"
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: false
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      show_date: false
 
 permalink: /:categories/:title/
 search: true
+search_full_content: true
+breadcrumbs: false
+atom_feed:
+  hide: true
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/TheoriginalMMM"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mohamed-el-mehdi-makhlouf/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+

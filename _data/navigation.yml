@@ -9,5 +9,12 @@ main:
     url: /experience/
   - title: "Education"
     url: /education/
-  - title: "CV (PDF)"
-    url: /assets/cv.pdf
+  - title: "Talks"
+    url: /talks/
+  - title: "Activities"
+    url: /activities/
+  - title: "CV · EN"
+    url: /assets/documents/CV_Mohamed_El_Mehdi_Makhlouf_EN.pdf
+  - title: "CV · FR"
+    url: /assets/documents/CV_Mohamed_El_Mehdi_Makhlouf_FR.pdf
+
